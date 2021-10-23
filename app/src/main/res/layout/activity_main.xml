@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="8dp"
+    tools:context=".MainActivity"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_marginTop="60dp"
+        android:id="@+id/tvMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Users Data"/>
+
+    <Button
+        android:id="@+id/baddnew"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Celebrity"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/etup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_weight="2"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:text="Celebrity Name" />
+        <Button
+            android:id="@+id/btnup"
+            android:layout_weight="4"
+            android:minHeight="48dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Submit" />
+    </LinearLayout>
+
+</LinearLayout>
